@@ -1,24 +1,13 @@
-# Tugas Praktikum DPBO - Arsitektur MVC (PHP Native + MySQL)
+# TP7DPBO2526C2
 
-**Nama**  : [isi nama]
-**NIM**   : [isi NIM]
-**Kelas** : [isi kelas]
+## Janji
+Saya Bentar Bintang Umeir dengan nim 2509865 mengerjakan TP7 dalam mata kuliah DPBO untuk 
+keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 Aplikasi web **Akademik MVC** untuk mengelola data **Program Studi**, **Dosen**, dan **Mata Kuliah**.
 Program ini merupakan hasil refactoring dari kode starter non-MVC (`tp_mvc25`, yang hanya mengelola tabel `lecturers`)
 menjadi arsitektur **Model-View-Controller** murni dengan PHP Native dan MySQL, serta ditambah dua tabel baru yang
 berelasi melalui Foreign Key.
-
-## Daftar Isi
-
-1. [Teknologi](#teknologi)
-2. [Struktur Repositori](#struktur-repositori)
-3. [Desain Program dan Arsitektur MVC](#desain-program-dan-arsitektur-mvc)
-4. [Skema Database dan ERD](#skema-database-dan-erd)
-5. [Alur Kerja Aplikasi (CRUD)](#alur-kerja-aplikasi-crud)
-6. [Keamanan](#keamanan)
-7. [Cara Menjalankan (Laragon)](#cara-menjalankan-laragon)
-8. [Dokumentasi](#dokumentasi)
 
 ## Teknologi
 
