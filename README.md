@@ -5,9 +5,6 @@ Saya Bentar Bintang Umeir dengan nim 2509865 mengerjakan TP7 dalam mata kuliah D
 keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 Aplikasi web **Akademik MVC** untuk mengelola data **Program Studi**, **Dosen**, dan **Mata Kuliah**.
-Program ini merupakan hasil refactoring dari kode starter non-MVC (`tp_mvc25`, yang hanya mengelola tabel `lecturers`)
-menjadi arsitektur **Model-View-Controller** murni dengan PHP Native dan MySQL, serta ditambah dua tabel baru yang
-berelasi melalui Foreign Key.
 
 ## Teknologi
 
@@ -51,9 +48,9 @@ berelasi melalui Foreign Key.
 │       ├── bootstrap.min.css
 │       ├── bootstrap.bundle.min.js
 │       └── style.css
-├── SQL/
-│   └── tp_mvc25.sql              # Struktur tabel + data dummy
-├── Dokumentasi/                  # Screenshot / screen record + panduannya
+├── tp_mvc25.sql           # Struktur tabel + data dummy
+│                 
+├── Dokumentasi/           # Screenshot / screen record + panduannya
 └── README.md
 ```
 
