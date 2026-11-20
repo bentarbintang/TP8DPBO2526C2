@@ -246,7 +246,9 @@ folder `Dokumentasi/`, tampilannya muncul pada bagian di bawah ini.
 
 ### Halaman Mata Kuliah
 
-![Read - daftar mata kuliah](<img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/cfc37508-5523-4552-a91a-a52040c9b734" />)
+Tampilan - daftar mata kuliah
+
+(<img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/cfc37508-5523-4552-a91a-a52040c9b734" />)
 
 ![Create - tambah mata kuliah](https://github.com/user-attachments/assets/393d2ce3-31cc-46f2-ac7b-9215cab7afdb)
 
