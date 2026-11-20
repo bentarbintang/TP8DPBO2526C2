@@ -219,33 +219,50 @@ Daftar screenshot dan screen record yang perlu diambil ada di
 folder `Dokumentasi/`, tampilannya muncul pada bagian di bawah ini.
 
 ### Struktur database
+# Daftar tabel di phpMyAdmin
+<img width="352" height="61" alt="image" src="https://github.com/user-attachments/assets/cd332022-47b3-4940-8431-33948de0f0c5" />
 
-![Daftar tabel di phpMyAdmin](<img width="352" height="61" alt="image" src="https://github.com/user-attachments/assets/cd332022-47b3-4940-8431-33948de0f0c5" />)
+# Relasi antar tabel (Designer phpMyAdmin)
+<img width="533" height="272" alt="image" src="https://github.com/user-attachments/assets/4b5140b0-243c-4b9c-a7d7-18bb3d775b00" />
 
-![Relasi antar tabel (Designer phpMyAdmin)](<img width="533" height="272" alt="image" src="https://github.com/user-attachments/assets/4b5140b0-243c-4b9c-a7d7-18bb3d775b00" />)
 
 ### Halaman Dosen
+# Tampilan - daftar dosen
 
-![Tampilan - daftar dosen](<img width="956" height="500" alt="image" src="https://github.com/user-attachments/assets/9687110e-47f2-4794-ab94-8265d30bc9fb" />)
+<img width="956" height="500" alt="image" src="https://github.com/user-attachments/assets/9687110e-47f2-4794-ab94-8265d30bc9fb" />
 
-![Create - tambah dosen]( https://github.com/user-attachments/assets/b53d7be8-0d91-46be-8205-0212876b2809 )
+# Create - tambah dosen
 
-![Update - ubah dosen]( https://github.com/user-attachments/assets/eb656432-fab3-49fb-9e86-3edc683a0b27 )
+https://github.com/user-attachments/assets/b53d7be8-0d91-46be-8205-0212876b2809 
 
-![Delete - hapus dosen]( https://github.com/user-attachments/assets/373db65a-7045-4b34-8f21-83f960792316 )
+# Update - ubah dosen
+
+https://github.com/user-attachments/assets/eb656432-fab3-49fb-9e86-3edc683a0b27 
+
+# Delete - hapus dosen
+
+https://github.com/user-attachments/assets/373db65a-7045-4b34-8f21-83f960792316 
+
 
 ### Halaman Program Studi
+# Tampilan - daftar program studi
 
-![Tampilan - daftar program studi](<img width="956" height="499" alt="image" src="https://github.com/user-attachments/assets/3acc92c4-5ca5-41fd-8356-5b44f8c3a486" />)
+<img width="956" height="499" alt="image" src="https://github.com/user-attachments/assets/3acc92c4-5ca5-41fd-8356-5b44f8c3a486" />
 
-![Create program studi]( https://github.com/user-attachments/assets/a40c3737-0345-4f67-a7f5-97b9b52199f0 )
+# Create program studi
 
-![Update program studi]( https://github.com/user-attachments/assets/d3c04f1f-4a11-4752-9191-9644e0b2958f )
+https://github.com/user-attachments/assets/a40c3737-0345-4f67-a7f5-97b9b52199f0 
 
-![Delete ditolak karena masih memiliki dosen](https://github.com/user-attachments/assets/5ef099d6-7c24-426b-93d4-ab9a716467db)
+# Update program studi
+
+https://github.com/user-attachments/assets/d3c04f1f-4a11-4752-9191-9644e0b2958f
+
+# Delete ditolak karena masih memiliki dosen
+
+https://github.com/user-attachments/assets/5ef099d6-7c24-426b-93d4-ab9a716467db
+
 
 ### Halaman Mata Kuliah
-
 # Tampilan - daftar mata kuliah
 
 <img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/cfc37508-5523-4552-a91a-a52040c9b734" />
