@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DATA_PAGE_TITLE | Akademik MVC</title>
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+  DATA_NAVBAR
+
+  <main class="container-fluid py-4 px-lg-4">
+    DATA_FLASH
+
+    <div class="row g-4">
+      <div class="col-12 col-xl-4">
+        <div class="card">
+          <div class="card-header bg-white fs-5">DATA_FORM_TITLE</div>
+          <div class="card-body">
+            <form action="index.php" method="POST">
+              DATA_FORM_ID
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" name="name" value="DATA_VAL_NAME" maxlength="100" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="nidn" class="form-label">NIDN (10 digit)</label>
+                <input type="text" class="form-control" id="nidn" name="nidn" value="DATA_VAL_NIDN" maxlength="10"
+                  pattern="[0-9]{10}" inputmode="numeric" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" value="DATA_VAL_EMAIL" maxlength="100" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="form-label">No. Telepon</label>
+                <input type="text" class="form-control" id="phone" name="phone" value="DATA_VAL_PHONE" maxlength="20"
+                  pattern="[0-9+\- ]{8,20}" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="academic_rank" class="form-label">Jabatan Akademik</label>
+                <select class="form-select" id="academic_rank" name="academic_rank" required>
+                  DATA_OPT_RANK
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="join_date" class="form-label">Tanggal Bergabung</label>
+                <input type="date" class="form-control" id="join_date" name="join_date" value="DATA_VAL_JOIN_DATE" required>
+              </div>
+
+              <div class="mb-4">
+                <label for="department_id" class="form-label">Program Studi</label>
+                <select class="form-select" id="department_id" name="department_id" required>
+                  DATA_OPT_DEPARTMENT
+                </select>
+              </div>
+
+              <div class="d-flex gap-2">
+                <button type="submit" name="DATA_ACTION_NAME" class="btn DATA_BUTTON_CLASS">DATA_BUTTON_LABEL</button>
+                DATA_CANCEL
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-8">
+        <div class="card">
+          <div class="card-header bg-white d-flex justify-content-between align-items-center">
+            <span class="fs-5">Daftar Dosen</span>
+            <span class="badge bg-primary">Total: DATA_TOTAL</span>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                  <tr>
+                    <th class="text-center">No</th>
+                    <th>Nama</th>
+                    <th>NIDN</th>
+                    <th>Telepon</th>
+                    <th>Jabatan</th>
+                    <th>Program Studi</th>
+                    <th>Bergabung</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  DATA_TABEL
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center text-muted py-3">
+    Tugas Praktikum DPBO - Arsitektur MVC (PHP Native + MySQL)
+  </footer>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
